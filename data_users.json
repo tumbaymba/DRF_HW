@@ -1,0 +1,140 @@
+[
+  {
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$zPNdEVQ5ETm4Lwts8B8ZGS$GoyVeZXo/csnR0Fct8CpWuPY0iyz9N6P7ew3yP5TUWk=",
+      "last_login": "2024-05-30T20:12:01Z",
+      "is_superuser": true,
+      "first_name": "Admin",
+      "last_name": "SkyPro",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-05-27T02:46:33Z",
+      "email": "admin@sky.pro",
+      "phone": null,
+      "avatar": "",
+      "city": null,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 9,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$qZMwOOfqTYvD5MQb2H15r9$/DWJjZ3QdtBgyxy3CuOd3mbaaQDjq5kOHAoAmath0e4=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-05-31T13:18:06.403Z",
+      "email": "test@sky.pro",
+      "phone": null,
+      "avatar": "",
+      "city": null,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 10,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$NfWAKmA6oCa1d82rR4A2ZX$4rWS4nFFqgn2TNUV+sD2dtx1vm6V6XBOY4WZF+1/dHY=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-05-31T13:57:29Z",
+      "email": "moderator@sky.pro",
+      "phone": null,
+      "avatar": "",
+      "city": null,
+      "groups": [
+        1
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 11,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$xU4oAILPM4pGu3cmI03CeS$+U8wDEueBZTo9cOBhvme5ZOqKe8IOmj2eoZwqwPTYig=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-05-31T14:00:45Z",
+      "email": "moderator2@sky.pro",
+      "phone": null,
+      "avatar": "",
+      "city": null,
+      "groups": [
+        1
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 12,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$wQU5tLAqra8qgSYunicXP1$SKjZqdTivFwUas/nXM40rhKjX/nm7NVi6bAZoOsxLm4=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-05-31T14:02:25Z",
+      "email": "moderator3@sky.pro",
+      "phone": null,
+      "avatar": "",
+      "city": null,
+      "groups": [
+        1
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 13,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$Dy0QGQ5jofctxwaNDJf5FT$X2H9BU63drcf8Yge4V6RAlWbYmhdckcNBJPWJGGW5Lo=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-05-31T14:07:34.070Z",
+      "email": "test1@sky.pro",
+      "phone": null,
+      "avatar": "",
+      "city": null,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.payment",
+    "pk": 4,
+    "fields": {
+      "user": 9,
+      "payment_date": "2024-05-31",
+      "paid_course": 5,
+      "paid_lesson": 5,
+      "amount": "1500.00",
+      "pay_method": "cash"
+    }
+  }
+]

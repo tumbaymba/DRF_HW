@@ -1,0 +1,142 @@
+﻿[
+  {
+    "model": "studing.course",
+    "pk": 4,
+    "fields": {
+      "title": "Введение в программирование",
+      "preview": "",
+      "description": "Введение в профессию и основы алгоритмизации"
+    }
+  },
+  {
+    "model": "studing.course",
+    "pk": 5,
+    "fields": {
+      "title": "Основы программирования",
+      "preview": "",
+      "description": "Python\r\nОсновы абстракций и объектов"
+    }
+  },
+  {
+    "model": "studing.course",
+    "pk": 6,
+    "fields": {
+      "title": "Основы backend-разработки",
+      "preview": "",
+      "description": "1) Командная строка и Linux\r\n2) Работа с ветками в Git\r\n3) Тестирование"
+    }
+  },
+  {
+    "model": "studing.course",
+    "pk": 7,
+    "fields": {
+      "title": "ООП",
+      "preview": "",
+      "description": "Классы. Магические методы. Наследование"
+    }
+  },
+  {
+    "model": "studing.course",
+    "pk": 8,
+    "fields": {
+      "title": "Работа с базами данных",
+      "preview": "",
+      "description": "Базовые SQL-запросы"
+    }
+  },
+  {
+    "model": "studing.course",
+    "pk": 9,
+    "fields": {
+      "title": "Django",
+      "preview": "",
+      "description": "1) Основы веба\r\n2) Бутстрап\r\n3) Django\r\nшаблонизация..."
+    }
+  },
+  {
+    "model": "studing.course",
+    "pk": 10,
+    "fields": {
+      "title": "DRF",
+      "preview": "",
+      "description": "Django REST framework (DRF) для разработки мощных и масштабируемых RESTful API."
+    }
+  },
+  {
+    "model": "studing.lesson",
+    "pk": 3,
+    "fields": {
+      "title": "24.1 Вьюсеты и дженерики",
+      "preview": "",
+      "description": "24.1 Вьюсеты и дженерики",
+      "video_url": null,
+      "course": 10
+    }
+  },
+  {
+    "model": "studing.lesson",
+    "pk": 4,
+    "fields": {
+      "title": "24.2 Сериализаторы",
+      "preview": "",
+      "description": "24.2 Сериализаторы",
+      "video_url": null,
+      "course": 10
+    }
+  },
+  {
+    "model": "studing.lesson",
+    "pk": 5,
+    "fields": {
+      "title": "25.1 Права доступа в DRF",
+      "preview": "",
+      "description": "25.1 Права доступа в DRF",
+      "video_url": null,
+      "course": 10
+    }
+  },
+  {
+    "model": "studing.lesson",
+    "pk": 6,
+    "fields": {
+      "title": "Основы веб-разработки на Django",
+      "preview": "",
+      "description": "Основы веб-разработки на Django",
+      "video_url": null,
+      "course": 9
+    }
+  },
+  {
+    "model": "studing.lesson",
+    "pk": 7,
+    "fields": {
+      "title": "19.2 Знакомство с Django",
+      "preview": "",
+      "description": "19.2 Знакомство с Django",
+      "video_url": null,
+      "course": 9
+    }
+  },
+  {
+    "model": "studing.lesson",
+    "pk": 8,
+    "fields": {
+      "title": "20.1 Работа с ORM в Django",
+      "preview": "",
+      "description": "20.1 Работа с ORM в Django",
+      "video_url": null,
+      "course": 9
+    }
+  },
+  {
+    "model": "studing.lesson",
+    "pk": 9,
+    "fields": {
+      "title": "20.2 Шаблонизация",
+      "preview": "",
+      "description": "20.2 Шаблонизация",
+      "video_url": null,
+      "course": 9
+    }
+  }
+]

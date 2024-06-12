@@ -1,0 +1,99 @@
+[
+  {
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$zPNdEVQ5ETm4Lwts8B8ZGS$GoyVeZXo/csnR0Fct8CpWuPY0iyz9N6P7ew3yP5TUWk=",
+      "last_login": "2024-06-10T15:27:38.161Z",
+      "is_superuser": true,
+      "first_name": "Admin",
+      "last_name": "SkyPro",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-06-10T02:46:33.443Z",
+      "email": "admin@sky.pro",
+      "phone": null,
+      "avatar": "",
+      "city": null,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 2,
+    "fields": {
+      "password": "123qwe",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-06-10T15:59:49Z",
+      "email": "test@sky.pro",
+      "phone": null,
+      "avatar": "",
+      "city": null,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 3,
+    "fields": {
+      "password": "123qwe",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-06-10T16:02:35.537Z",
+      "email": "test1@sky.pro",
+      "phone": null,
+      "avatar": "",
+      "city": null,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+
+  {
+    "model": "users.payment",
+    "pk": 1,
+    "fields": {
+      "user": 2,
+      "payment_date": "2024-06-01",
+      "paid_course": 4,
+      "paid_lesson": null,
+      "amount": "1000.00",
+      "pay_method": "transfer"
+    }
+  },
+  {
+    "model": "users.payment",
+    "pk": 2,
+    "fields": {
+      "user": 3,
+      "payment_date": "2024-06-04",
+      "paid_course": 5,
+      "paid_lesson": null,
+      "amount": "1000.00",
+      "pay_method": "cash"
+    }
+  },
+  {
+    "model": "users.payment",
+    "pk": 3,
+    "fields": {
+      "user": 4,
+      "payment_date": "2024-06-05",
+      "paid_course": 6,
+      "paid_lesson": null,
+      "amount": "1000.00",
+      "pay_method": "cash"
+    }
+  }
+]
