@@ -23,7 +23,7 @@ class LessonAPITestCase(APITestCase):
             description="test_lesson",
             course=self.course,
             owner=self.user,
-            video_url=r"https://www.youtube.com/watch?v=HYOd_KlieeE&list=RDMMHYOd_KlieeE&start_radio=1"
+            video_url=r"https://www.youtube.com/@skypro.university"
 
         )
 
@@ -97,7 +97,7 @@ class LessonAPITestCase(APITestCase):
             'description': "test_lesson_3",
             'course': self.lesson.course.id,
             'owner': self.lesson.owner.id,
-            'video_url': r"https://dzen.ru/video/watch/65113ea5b1765406f111c976?utm_referrer=www.google.com"
+            'video_url': r"https://dzen.ru/video/watch/63fedff69d0ff269078cff36?utm_referrer=www.google.com"
 
         }
 
